@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Decision Express Suite" duration-ms="39409" started-at="2016-10-01T19:00:29Z" finished-at="2016-10-01T19:01:08Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="39409" started-at="2016-10-01T19:00:29Z" finished-at="2016-10-01T19:01:08Z">
+      <class name="com.decexp.tests.WebJoinerTest">
+        <test-method status="PASS" signature="browserSetup(java.lang.String)[pri:0, instance:com.decexp.tests.WebJoinerTest@33a5041]" name="browserSetup" is-config="true" duration-ms="3370" started-at="2016-10-02T00:30:26Z" finished-at="2016-10-02T00:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.decexp.tests.WebJoinerTest@33a5041]" name="beforeClass" is-config="true" duration-ms="22" started-at="2016-10-02T00:30:29Z" finished-at="2016-10-02T00:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createMember()[pri:0, instance:com.decexp.tests.WebJoinerTest@33a5041]" name="createMember" duration-ms="39369" started-at="2016-10-02T00:30:29Z" finished-at="2016-10-02T00:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMember -->
+      </class> <!-- com.decexp.tests.WebJoinerTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Decision Express Suite -->
+</testng-results>
